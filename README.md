@@ -38,5 +38,14 @@ Select the correct line of the end of the desk. You'll have to select 2 points o
 Then the program is running. It can take a lot of time that depends on you computer configuration and the number of images imported. 
 
 
+## Output
 
+You can see the results in the folder `json_out`. There will be 2 json File.
 
+1. `AnnotationWithArmsOverTheDesk.json` is your Json file from the folder `json_in` where there is a new key :
+
+![picture](img/jsonOut.png)
+
+The file `AnnotationWithArmsOverTheDesk.json` will be useful in https://github.com/cladr068/PlotCorrelationFrom3DDetection.
+
+2. `details.json` is a recap for every images. We can see what point of open pose is above the desk. **Warning** : This file has nothing to do with the file `details.json` used in PlotCorrelation.
