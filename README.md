@@ -2,7 +2,7 @@
 
 ## Required
 
-1. You need to have istalled Openpose (you should have a folder assetopenpose in addition of all those). 
+1. You need to have istalled Openpose then you have to create a folder `asset_openpose/` witch contains `/bin`,`python`,`models` and if you are on windows `x64` from Openpose. 
 
 2. You need to have in the folder `json_in` 2 files : 
 - One annotation file which look like :
